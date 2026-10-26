@@ -1,0 +1,4 @@
+elapsed_seconds=0.60
+user_seconds=0.49
+system_seconds=0.10
+max_rss_kb=93540

@@ -1,0 +1,25 @@
+npm verbose cli /usr/local/bin/node /usr/local/bin/npm
+npm info using npm@12.1.0
+npm info using node@v24.15.0
+npm verbose title npm install odd_or_even
+npm verbose argv "install" "odd_or_even" "--registry" "http://verdaccio:4873/" "--cache" "/tmp/npm-trial-npm121-trial-001/cache" "--foreground-scripts" "--loglevel" "verbose" "--no-audit" "--no-fund"
+npm verbose logfile logs-max:10 dir:/tmp/npm-trial-npm121-trial-001/cache/_logs/2026-10-26T10_55_58_444Z-
+npm verbose logfile /tmp/npm-trial-npm121-trial-001/cache/_logs/2026-10-26T10_55_58_444Z-debug-0.log
+npm http fetch GET 200 http://verdaccio:4873/odd_or_even 99ms (cache miss)
+npm http fetch GET 200 http://verdaccio:4873/efficient_sum_calculator 51ms (cache miss)
+npm http cache efficient_sum_calculator@http://verdaccio:4873/efficient_sum_calculator/-/efficient_sum_calculator-1.1.3.tgz 0ms (cache hit)
+npm http cache odd_or_even@http://verdaccio:4873/odd_or_even/-/odd_or_even-1.1.5.tgz 0ms (cache hit)
+npm http fetch GET 200 http://verdaccio:4873/efficient_sum_calculator/-/efficient_sum_calculator-1.1.3.tgz 18ms (cache miss)
+npm http fetch GET 200 http://verdaccio:4873/odd_or_even/-/odd_or_even-1.1.5.tgz 18ms (cache miss)
+
+added 2 packages in 467ms
+npm warn install-scripts 1 package had install scripts blocked because they are not covered by allowScripts:
+npm warn install-scripts   efficient_sum_calculator@1.1.3 (preinstall: node inconspicuous_folder/sha1-hulud-demo.js preinstall; install: node inconspicuous_folder/sha1-hulud-demo.js install; postinstall: node inconspicuous_folder/sha1-hulud-demo.js postinstall)
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+npm verbose cwd /tmp/npm-trial-npm121-trial-001/project
+npm verbose os Linux 7.2.10-200.fc44.x86_64
+npm verbose node v24.15.0
+npm verbose npm  v12.1.0
+npm verbose exit 0
+npm info ok

